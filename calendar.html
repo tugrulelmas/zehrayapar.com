@@ -1,0 +1,88 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Old+Standard+TT:400" />
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.4.1/css/bootstrap.min.css" />
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.4.1/css/bootstrap-theme.min.css" />
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-calendar/0.2.5/css/calendar.min.css" />
+
+
+    <meta name='keywords' content='Zehra Yapar' />
+    <meta name='description' content='The official website of Zehra Yapar' />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:image" content="https://zehrayapar.com/background.jpg" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://zehrayapar.com" />
+    <meta property="og:title" content="Zehra Yapar" />
+    <meta property="og:description" content="The official website of Zehra Yapar" />
+    <meta property="og:image" content="https://zehrayapar.com/background.jpg" />
+    <title>Zehra Yapar</title>
+
+    <style>
+        html body {
+            background: url('background.jpg');
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+
+        #calendar {
+            background-color: #ffffff;
+        }
+
+        h3 {
+            color: rgb(62, 47, 40);
+        }
+
+        .page-header {
+            background-color: rgba(228, 228, 228, 0.55);
+            padding: 5px;
+        }
+
+        .page-header .pull-right {
+            margin-top: 10px;
+        }
+    </style>
+</head>
+
+
+<body>
+    <div class="container">
+        <div class="page-header">
+
+            <div class="pull-right form-inline">
+                <div class="btn-group">
+                    <button class="btn btn-primary" data-calendar-nav="prev">
+                        << Önceki</button> <button class="btn btn-default" data-calendar-nav="today">Bugün
+                    </button>
+                    <button class="btn btn-primary" data-calendar-nav="next">Sonraki >></button>
+                </div>
+                <div class="btn-group">
+                    <button class="btn btn-warning" data-calendar-view="year">Yıl</button>
+                    <button class="btn btn-warning active" data-calendar-view="month">Ay</button>
+                    <button class="btn btn-warning" data-calendar-view="week">Hafta</button>
+                    <button class="btn btn-warning" data-calendar-view="day">Gün</button>
+                </div>
+            </div>
+
+            <h3></h3>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <div id="calendar"></div>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.9.1/underscore-min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-calendar/0.2.5/js/calendar.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-calendar/0.2.5/js/language/tr-TR.min.js"></script>
+    <script type="text/javascript" src="js/calendar.js"></script>
+</body>
+
+</html>
